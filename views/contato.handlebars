@@ -1,0 +1,19 @@
+<div class="card mb-3">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="https://mundoconectado.com.br/uploads/chamadas/capa-programacao.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">AUGUSTO CÉZAR</h5>
+        <p class="card-text">Whatsapp/Contato: {{user.contato}}</p>
+        <p class="card-text"><a href="{{user.site}}" class="card-link">Acesse meu portifólio</a></p>
+        <ul class="list-group list-group-flush">
+          {{#each ling}}
+          <li class="list-group-item">{{this}}</li>
+          {{/each}}
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>
